@@ -1,4 +1,5 @@
 import "./Descargas.css";
+import { Link } from "react-router-dom";
 
 function Descargas() {
   return (
@@ -44,12 +45,9 @@ function Descargas() {
         CÓDIGO PYTHON ALGORITMO SHA-256
       </a>
 
-      <a
-        href="https://solano-parcial1.vercel.app/"
-        className="btn-descarga dark"
-      >
+      <Link to="/" className="btn-descarga dark">
         REGRESAR AL PROYECTO PRINCIPAL
-      </a>
+      </Link>
     </div>
   );
 }

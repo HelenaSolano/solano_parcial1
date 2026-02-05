@@ -1,7 +1,7 @@
 import profile from './profile.jpeg';
 import './App.css';
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Descargas from "./Descargas.js";
 
 function Home() {
@@ -31,7 +31,7 @@ function Home() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <header className="App-header">
           <Routes>
@@ -40,7 +40,7 @@ function App() {
           </Routes>
         </header>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
