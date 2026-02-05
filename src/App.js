@@ -2,7 +2,7 @@ import profile from './profile.jpeg';
 import './App.css';
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Descargas from "./Descargas";
+import Descargas from "./Descargas.js";
 
 function Home() {
   return (
