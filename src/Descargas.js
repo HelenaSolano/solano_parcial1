@@ -45,7 +45,7 @@ function Descargas() {
       </a>
 
       <a
-        href="https://DevAlejandroarellano.github.io/PaginaREACT"
+        href="https://solano-parcial1.vercel.app/"
         className="btn-descarga dark"
       >
         REGRESAR AL PROYECTO PRINCIPAL
